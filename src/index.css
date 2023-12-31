@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    background-color: chocolate;
+}  
+ul{
+    padding: 20px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    text-align: center;
+    
+}
+ ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+ ul li a.active{
+    color:red;
+}
+footer{
+    padding: 20px 0;
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+}
